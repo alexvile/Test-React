@@ -11,7 +11,7 @@ export const SearchFrom = ({onSubmit}) => {
             return alert('empty query');
         }
         onSubmit(query);
-    }
+    };
     return(
         <form onSubmit={handleSubmit} className="p-2 border">
             <label>
